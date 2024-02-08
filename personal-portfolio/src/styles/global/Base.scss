@@ -11,7 +11,7 @@
   width: 100vw;
   min-height: 100vh;
   background: $bg;
-  color: $lilac;
+  color: $alt-lilac;
   transition: 0.5s;
 
   .logo {
@@ -36,6 +36,17 @@
 
   .btn {
     color: $dark-lilac;
+  }
+
+  span {
+    color: $dark-lilac;
+  }
+  p {
+    color: $lilac;
+  }
+
+  .link-icons {
+    color: $lilac;
   }
 
 }

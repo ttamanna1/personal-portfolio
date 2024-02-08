@@ -1,7 +1,8 @@
 import { Link } from 'react-scroll'
 
-import DarkModeIcon from '@mui/icons-material/DarkMode';
-import LightModeIcon from '@mui/icons-material/LightMode';
+//? Icons
+import DarkModeIcon from '@mui/icons-material/DarkMode'
+import LightModeIcon from '@mui/icons-material/LightMode'
 
 const Nav = ({ theme, setTheme }) => {
 

@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react'
 import { Element } from 'react-scroll'
 import Nav from "./components/Nav"
+import Skills from './components/Skills'
+import Home from './components/Home'
 
 
 function App() {
@@ -19,9 +21,10 @@ function App() {
       <div className={`container ${theme}`}>
         <Nav theme={theme} setTheme={setTheme} />
         <main>
-        <Element name='skills'>
-          
-        </Element>
+          <Home />
+          <Element name='skills'>
+            <Skills />
+          </Element>
         </main>
       </div>
     </>
