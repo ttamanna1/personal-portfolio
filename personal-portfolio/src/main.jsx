@@ -6,11 +6,13 @@ import './styles/main.scss'
 
 //? Components
 import App from './App.jsx'
+import ErrorPage from './components/ErrorPage.jsx'
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <App />
+    element: <App />,
+    errorElement: <ErrorPage />
   }
 ])
 

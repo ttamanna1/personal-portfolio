@@ -1,0 +1,37 @@
+.contact-section {
+  margin-top: 5rem;
+  text-align: center;
+
+  .contact-div {
+    margin: 3rem;
+
+    a {
+      text-decoration: none;
+      margin: 0 auto;
+    }
+  
+    .contact-btn {
+      position: relative;
+      overflow: hidden;
+      z-index: 1;
+      border-radius: 5px;
+      padding: 1rem;
+      font-weight: 500;
+    }
+  
+    .contact-btn:before {
+      content: '';
+      position: absolute;
+      right: 100%;
+      bottom: 0;
+      left: 0;
+      top: 0;
+      z-index: -1;
+      transition: right 0.2s ease-in-out;
+    }
+  
+    .contact-btn:hover:before, .contact-btn:focus:before {
+      right: 0;
+    }
+  }
+}

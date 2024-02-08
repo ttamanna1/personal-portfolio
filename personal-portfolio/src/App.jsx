@@ -1,9 +1,12 @@
 import { useEffect, useState } from 'react'
 import { Element } from 'react-scroll'
+
+//? Components
 import Nav from "./components/Nav"
 import Skills from './components/Skills'
 import Home from './components/Home'
 import Projects from './components/Projects'
+import Contact from './components/Contact'
 
 
 function App() {
@@ -28,6 +31,9 @@ function App() {
           </Element>
           <Element name='projects'>
             <Projects />
+          </Element>
+          <Element name='contact'>
+            <Contact />
           </Element>
         </main>
       </div>
