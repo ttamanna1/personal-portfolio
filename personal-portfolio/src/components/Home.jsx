@@ -11,8 +11,8 @@ const Home = () => {
       <h2>Junior Software Developer</h2>
       <p>With a background in community pharmacy, I am taking a deep dive into creating digital solutions. <br/> Watch this space.</p>
       <div className='social-links'>
-        <Link target='_blank' to='https://github.com/ttamanna1' className='link-icons'><GitHubIcon className='icon'/></Link>
-        <Link target='_blank' to='https://linkedin.com/in/tamanna-khanum' className='link-icons'><LinkedInIcon className='icon'/></Link>
+        <Link target='_blank' to='https://github.com/ttamanna1' className='link link-icons'><GitHubIcon className='icon'/></Link>
+        <Link target='_blank' to='https://linkedin.com/in/tamanna-khanum' className='link link-icons'><LinkedInIcon className='icon'/></Link>
       </div>
     </div>
   )

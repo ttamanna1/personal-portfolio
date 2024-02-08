@@ -55,8 +55,8 @@ const Projects = () => {
               ))}
             </ul>
             <div className='social-links'>
-              <Link target='_blank' to={project.live} className='link-icons'><LaunchIcon className='icon'/></Link>
-              <Link target='_blank' to={project.github} className='link-icons'><GitHubIcon className='icon'/></Link>
+              <Link target='_blank' to={project.live} className='link link-icons'><LaunchIcon className='icon'/></Link>
+              <Link target='_blank' to={project.github} className='link link-icons'><GitHubIcon className='icon'/></Link>
             </div>
           </div>
         ))}

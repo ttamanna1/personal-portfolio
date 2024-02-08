@@ -33,18 +33,18 @@
 
   ul {
     list-style: none;
+  }
 
-    .link:hover {
-      color: $dark-lilac;
-    }
+  .link:hover {
+    color: $dark-lilac;
+  }
 
-    .link::before {
-      background-color: $dark-lilac;
-    }
+  .link::before {
+    background-color: $dark-lilac;
+  }
 
-    .link-nav {
-      color: $lilac;
-    }
+  .link-nav {
+    color: $lilac;
   }
 
   .btn {

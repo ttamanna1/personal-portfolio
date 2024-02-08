@@ -37,8 +37,27 @@
     .social-links {
       padding: 0.5rem;
 
+      .link {
+        padding: 0 0 0.3em 0;
+        position: relative;
+      }
+  
+      .link::before {
+        content: '';
+        display: inline;
+        width: 0%;
+        height: 0.2em;
+        position: absolute;
+        bottom: 0;
+        transition: width 0.2s ease-in;
+      }
+  
+      .link:hover::before, .link:focus::before {
+        width: 100%;
+      }
+
       .link-icons {
-        padding: 1rem;
+        margin: 1rem;
       }
 
       .icon {
