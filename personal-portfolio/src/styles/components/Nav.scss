@@ -1,0 +1,58 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: sticky;
+  backdrop-filter: blur(50px);
+
+  .nav-list {
+    margin-right: 1.5em;
+    display: flex;
+
+    .nav-item {
+      margin-left: 1.5em;
+
+      .link {
+        padding: 0 0 0.3em 0;
+        position: relative;
+      }
+
+      .link::before {
+        content: '';
+        display: inline;
+        width: 0%;
+        height: 0.2em;
+        position: absolute;
+        bottom: 0;
+        transition: width 0.2s ease-in;
+      }
+
+      .link:hover::before, .link:focus::before {
+        width: 100%;
+      }
+
+      .link-nav {
+        text-transform: lowercase;
+        font-weight: 500;
+      }
+    }
+  }
+
+  .btn {
+    display: block;
+    cursor: pointer;
+    padding: 0.8em 1.4em;
+    background: transparent;
+    border: none;
+    font-weight: 500;
+    font-size: 0.9rem;
+    text-transform: lowercase;
+    transition: transform 0.2s ease-in-out;
+  }
+}
+
+
+// .nav-theme {
+//   margin-top: 0.4em;
+// }
+

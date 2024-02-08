@@ -7,3 +7,36 @@
   box-sizing: border-box;
 }
 
+.container {
+  width: 100vw;
+  min-height: 100vh;
+  background: $bg;
+  color: $lilac;
+  transition: 0.5s;
+
+  .logo {
+    color: $dark-lilac;
+  }
+
+  ul {
+    list-style: none;
+
+    .link:hover {
+      color: $dark-lilac;
+    }
+
+    .link::before {
+      background-color: $dark-lilac;
+    }
+
+    .link-nav {
+      color: $lilac;
+    }
+  }
+
+  .btn {
+    color: $dark-lilac;
+  }
+
+}
+
