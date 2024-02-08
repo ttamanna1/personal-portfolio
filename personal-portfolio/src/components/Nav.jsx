@@ -16,10 +16,10 @@ const Nav = ({ theme, setTheme }) => {
       <h1 className='logo'>TK</h1>
       <ul className='nav-list'>
         <li className="nav-item">
-          <Link to='skills' smooth={true} duration={500} className='link link-nav'>Skills</Link>
+          <Link to='skills' smooth={true} duration={500} offset={-70} className='link link-nav'>Skills</Link>
         </li>
         <li className="nav-item">
-          <Link to='projects' smooth={true} duration={500} className='link link-nav'>Projects</Link>
+          <Link to='projects' smooth={true} duration={500} offset={-70} className='link link-nav'>Projects</Link>
         </li>
         <li className="nav-item">
           <Link to='contact' smooth={true} duration={500} className='link link-nav'>Contact</Link>

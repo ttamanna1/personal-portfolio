@@ -86,3 +86,52 @@
 
 }
 
+.container.light {
+  background-color: $lilac;
+  color: $bg;
+
+  .logo {
+    color: $dark-bg;
+  }
+
+  .link-nav {
+    color: $bg;
+  }
+
+  .btn {
+    color: $dark-bg;
+  }
+
+  .link:hover {
+    color: $dark-bg;
+  }
+
+  .link::before {
+    background-color: $dark-bg;
+  }
+
+  .link-nav {
+    color: $bg;
+  }
+
+  span {
+    color: $dark-lilac;
+  }
+  p {
+    color: $bg;
+  }
+
+  .link-icons {
+    color: $bg;
+  }
+
+  .skill-btn {
+    background-color: $dark-lilac;
+    color: $bg;
+  }
+
+  .footer-link{
+    color: $bg;
+  }
+}
+

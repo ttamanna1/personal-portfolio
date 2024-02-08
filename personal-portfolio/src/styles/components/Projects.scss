@@ -15,6 +15,10 @@
       box-shadow: $shadow;
       transition: transform 0.2s linear;
 
+      img {
+        width: 12rem;
+      }
+
       p {
         margin-top: 1.2em;
         font-size: 1rem;
