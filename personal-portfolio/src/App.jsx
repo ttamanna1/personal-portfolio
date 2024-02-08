@@ -3,6 +3,7 @@ import { Element } from 'react-scroll'
 import Nav from "./components/Nav"
 import Skills from './components/Skills'
 import Home from './components/Home'
+import Projects from './components/Projects'
 
 
 function App() {
@@ -24,6 +25,9 @@ function App() {
           <Home />
           <Element name='skills'>
             <Skills />
+          </Element>
+          <Element name='projects'>
+            <Projects />
           </Element>
         </main>
       </div>

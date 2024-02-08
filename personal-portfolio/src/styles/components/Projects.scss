@@ -1,0 +1,53 @@
+.projects-section {
+  margin-top: 5em;
+
+  .projects-grid {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
+    grid-gap: 2em;
+
+    .project {
+      padding: 2em;
+      margin: 0 auto;
+      text-align: center;
+      box-shadow: $shadow;
+      transition: transform 0.2s linear;
+
+      p {
+        margin-top: 1.2em;
+        font-size: 1rem;
+      }
+
+      .project-skills{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 1.2em 0;
+
+        .project-skill-item {
+          margin: 0.5em;
+          font-weight: 500;
+          font-size: 0.8rem;
+        }
+
+      }
+    }
+    .social-links {
+      padding: 0.5rem;
+
+      .link-icons {
+        padding: 1rem;
+      }
+
+      .icon {
+        font-size: 2rem;
+      }
+    }
+
+    .project:hover {
+      transform: translateY(-7px);
+    }
+  }
+}
