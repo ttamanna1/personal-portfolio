@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import DP from '../assets/dp.jpg'
 
 //? Icons
 import GitHubIcon from '@mui/icons-material/GitHub'
@@ -8,6 +9,7 @@ const Home = () => {
   return (
     <div className="home">
       <h1>Hi, I&apos;m <span>Tamanna Khanum</span></h1>
+      <img src={DP} alt='Tamanna Khanum'/>
       <h2>Junior Software Developer</h2>
       <p>With a background in community pharmacy, I am taking a deep dive into creating digital solutions. <br/> Watch this space.</p>
       <div className='social-links'>
