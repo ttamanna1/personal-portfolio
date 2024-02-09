@@ -1,5 +1,4 @@
 
-
 const Skills = () => {
 
   const skills = [
@@ -15,17 +14,19 @@ const Skills = () => {
     'React',
     'Express',
     'Insomnia',
+    'Material UI',
     'NPM',
     'Bootstrap',
     'Heroku',
-    'Netlify'
+    'Netlify',
+    'Neon',
   ]
 
   return (
     <section className="skills-section">
       <h2 className="title">Skills</h2>
       <ul className="skills-list">
-        {skills.map((skill, key) => (
+        {skills.sort((a, b) => a < b ? -1 : 1).map((skill, key) => (
           <li key={key} className="skill-item skill-btn">
             {skill}
           </li>
