@@ -20,6 +20,10 @@ const Skills = () => {
     'Heroku',
     'Netlify',
     'Neon',
+    'Cloudinary',
+    'Typescript',
+    'Vite',
+    
   ]
 
   return (
