@@ -14,7 +14,7 @@ const Projects = () => {
   const projects = [
     {
       title: 'bookshelf',
-      description: 'Solo project | 1 week| I created a reading list tracker with CRUD functionality using a Python Django API and Django REST framework. Users can register and login for an account and move their book entries between their reading lists.',
+      description: 'Solo project | 1 week | I created a reading list tracker with CRUD functionality using a Python Django API and Django REST framework. Users can register and login for an account and move their book entries between their reading lists.',
       image: bookshelf,
       skills: ['HTML', 'Sass', 'React', 'Python', 'Django', 'PostgreSQL', 'Heroku'],
       live: 'https://bookshelf-project-5fec0e408021.herokuapp.com/',
