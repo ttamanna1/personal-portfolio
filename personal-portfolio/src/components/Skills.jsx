@@ -6,7 +6,7 @@ const Skills = () => {
     'CSS/Sass',
     'JavaScript',
     'Python',
-    'Node',
+    'Node.js',
     'PostgreSQL',
     'Django',
     'MongoDB',
@@ -23,6 +23,7 @@ const Skills = () => {
     'Cloudinary',
     'Typescript',
     'Vite',
+    'Git',
     
   ]
 

@@ -32,13 +32,13 @@ const Projects = () => {
       title: 'Harry Potter App',
       description: 'Pair project | 2 days | React frontend project: We created a Harry Potter app displaying character cards and spells using a 3rd party API.',
       image: hp,
-      skills: ['HTML', 'Sass', 'React', 'Bootstrap'],
+      skills: ['HTML', 'Sass', 'React', 'Bootstrap', 'Netlify'],
       live: 'https://hpwebapp.netlify.app',
       github: 'https://github.com/ttamanna1/harry-potter-app'
     },
     {
       title: 'Baby\'s Day Out',
-      description: 'Solo project | 1 week | I created a Frogger- style game with a theme inspired by the Baby’s Day Out movie.',
+      description: 'Solo project | 1 week | I created a Frogger- style game, using vanilla JavaScript, with a theme inspired by the Baby’s Day Out movie.',
       image: baby,
       skills: ['HTML', 'CSS', 'JavaScript'],
       live: 'https://ttamanna1.github.io/Babys-Day-Out/',
