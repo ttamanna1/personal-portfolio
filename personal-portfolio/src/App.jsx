@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import { Element } from 'react-scroll'
 
 //? Components
@@ -12,15 +12,9 @@ import Footer from './components/Footer'
 
 function App() {
 
-  // gets theme selected
-  const currentTheme = localStorage.getItem('currentTheme')
-  const [ theme, setTheme ] = useState(currentTheme ? currentTheme : 'light')
+  // default set to dark as that is my preference for this portfolio
+  const [ theme, setTheme ] = useState('dark')
 
-  // saves theme to localStorage
-  useEffect(() => {
-    localStorage.setItem('currentTheme', theme)
-  }, [theme])
-  
   return (
     <>
       <div className={`container ${theme}`}>

@@ -68,16 +68,19 @@
   }
 
   .contact-btn {
-    color: $dark-lilac;
+    color: $bg;
     border:  2px solid $dark-lilac;
+    background-color: $dark-lilac;
   }
 
   .contact-btn:hover, .contact-btn:focus {
     color: $bg;
+    border-color: $alt-lilac;
+    background-color: $alt-lilac;
   }
 
   .contact-btn:before {
-    background-color: $dark-lilac;
+    background-color: $bg;
   }
 
   .footer-link{
@@ -100,6 +103,12 @@
 
   .btn {
     color: $dark-bg;
+  }
+
+  .contact-btn:hover, .contact-btn:focus {
+    color: $dark-lilac;
+    border-color: $bg;
+    background-color: $bg;
   }
 
   .link:hover {

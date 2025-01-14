@@ -3,7 +3,8 @@ const Skills = () => {
 
   const skills = [
     'HTML',
-    'CSS/Sass',
+    'CSS',
+    'SASS',
     'JavaScript',
     'Python',
     'Node.js',
@@ -12,24 +13,21 @@ const Skills = () => {
     'MongoDB',
     'Github',
     'React',
-    'Express',
+    'Express.js',
     'Insomnia',
-    'Material UI',
     'NPM',
     'Bootstrap',
     'Heroku',
     'Netlify',
     'Neon',
     'Cloudinary',
-    'Typescript',
-    'Vite',
     'Git',
     
   ]
 
   return (
     <section className="skills-section">
-      <h2 className="title">Skills</h2>
+      <h2 className="title">Skills/Tools</h2>
       <ul className="skills-list">
         {skills.sort((a, b) => a < b ? -1 : 1).map((skill, key) => (
           <li key={key} className="skill-item skill-btn">
