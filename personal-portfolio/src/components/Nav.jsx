@@ -13,7 +13,8 @@ const Nav = ({ theme, setTheme }) => {
 
   return (
     <nav className="nav">
-      <h1 className='logo'>TK</h1>
+      <Link to='home' smooth={true} duration={500} offset={-70} 
+      className='logo'>TK</Link>
       <ul className='nav-list'>
         <li className="nav-item">
           <Link to='skills' smooth={true} duration={500} offset={-70} className='link link-nav'>Skills</Link>
